@@ -27,3 +27,24 @@ body,html{
     background: url("/assets/images/login_title.png") no-repeat center;
 
 }
+.login_box,.reg_box form{
+    margin: 0px 20px 0px 20px;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.layui-form-item{
+    position: relative;
+}
+.layui-form-item  .layui-icon{
+    position: absolute;
+    left:10px;
+    top:10px;
+}
+.layui-form-item input {
+    padding-left: 35px;
+}
+
+
